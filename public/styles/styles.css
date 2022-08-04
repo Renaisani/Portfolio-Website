@@ -4,9 +4,69 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.intro-title-box {
+  padding-top: 80px;
+  width: 100vw;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intro-title {
+  width: 300px;
+  height: 80px;
+  background-color: #E7F6F2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-title h1 {
+  color: #2C3333;
+}
+
+.profile-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profile-photo img {
+  padding-top: 40px;
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+.intro {
+  background-color: #2C3333;
+}
+
+.intro ul {
+  color: #E7F6F2;
+  line-height: 1.5rem;
+}
+
+.intro ul :last-child {
+  color: #E7F6F2;
+}
+
 .profile {
   background-color: #FFEDD3;
   padding-top: 15px;
+  padding-right: 15px;
 }
 
 .profile h2 {
@@ -23,6 +83,7 @@ body {
 .projects {
   background-color: #2C3333;
   padding-top: 20px;
+  padding-right: 15px;
 }
 
 .project-head {
@@ -63,6 +124,7 @@ ul {
 
 .experience {
   padding-top: 15px;
+  padding-right: 15px;
   background-color: #FFEDD3;
 }
 
@@ -164,5 +226,6 @@ ul {
   color: #2C3333;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */

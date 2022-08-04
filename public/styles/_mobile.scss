@@ -4,9 +4,52 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.intro-title-box {
+    padding-top: 80px;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+}
+
+.intro-title {
+    width: 300px;
+    height: 80px;
+    background-color: #E7F6F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        color: #2C3333;
+    }
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    img {
+        padding-top: 40px;
+        margin-bottom: 15px;
+        width: 300px;
+    }
+}
+
+.intro {
+    background-color: #2C3333;
+    ul {
+        color: #E7F6F2;
+        line-height: 1.5rem;
+        :last-child {
+            color: #E7F6F2;
+        }
+    }
+}
+
 .profile {
     background-color: #FFEDD3;
     padding-top: 15px;
+    padding-right: 15px;
     h2 {
         font-size: 1.2rem;
         margin-left: 10px;
@@ -21,6 +64,7 @@ body {
 .projects {
     background-color: #2C3333;
     padding-top: 20px;
+    padding-right: 15px;
 }
 
 .project-head {
@@ -61,6 +105,7 @@ ul {
 
 .experience {
     padding-top: 15px;
+    padding-right: 15px;
     background-color: #FFEDD3;
 
 }
@@ -140,5 +185,6 @@ ul {
         color: #2C3333;
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
+        cursor: pointer;
     }
 }
