@@ -1,9 +1,85 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.skills {
+.profile {
+  background-color: #FFEDD3;
+  padding-top: 15px;
+}
+
+.profile h2 {
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.profile p {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  margin-left: 15px;
+}
+
+.projects {
+  background-color: #2C3333;
+  padding-top: 20px;
+}
+
+.project-head {
+  background-color: #A5C9CA;
+  height: auto;
+  width: 300px;
+}
+
+.project-head h2 {
+  color: #2C3333;
+  margin-top: 0;
+  padding-left: 15px;
+}
+
+.project-block h3 {
+  color: #A5C9CA;
+  padding-left: 15px;
+}
+
+.project-block p {
+  padding-left: 20px;
+  color: #E7F6F2;
+}
+
+.project-block a {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: #E7F6F2;
+  display: block;
+}
+
+ul {
+  margin-bottom: 0;
+  margin-right: 20px;
+  padding-bottom: 40px;
+}
+
+.experience {
+  padding-top: 15px;
+  background-color: #FFEDD3;
+}
+
+.experience-block h2 {
+  font-size: 1.1rem;
+  margin-left: 10px;
+  padding-right: 45px;
+}
+
+.experience-block h3 {
+  font-size: .85rem;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.skills-footer {
   background-color: #2C3333;
 }
 
@@ -38,7 +114,6 @@ body {
 
 .skills-title h2 {
   color: #2C3333;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .skill-sub-head {
@@ -49,17 +124,45 @@ body {
 
 .skill-sub-head h3 {
   color: #2C3333;
-  padding-left: 15px;
+  padding-left: 20px;
 }
 
 .skill-sub {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+}
+
+.skill-sub :last-child {
+  margin-bottom: 0;
+  padding-bottom: 15px;
 }
 
 .skill-sub h4 {
   color: #E7F6F2;
   font-weight: 300;
   padding-left: 20px;
+}
+
+.footer {
+  background-color: #2C3333;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer button {
+  border-style: none;
+  height: 30px;
+  width: 150px;
+  background-color: #E7F6F2;
+  color: #2C3333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 /*# sourceMappingURL=styles.css.map */
