@@ -7,6 +7,40 @@ body {
   background-color: #2C3333;
 }
 
+.skills-title-box {
+  width: 100vw;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills-title {
+  width: 300px;
+  height: 80px;
+  background-color: #E7F6F2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills-title h2 {
+  color: #2C3333;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .skill-sub-head {
   background-color: #A5C9CA;
   height: 30px;
